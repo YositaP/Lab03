@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    background: rgb(255, 216, 223);
+    
+  }
+  
+    h1{
+      font-family: 'Caveat Brush', cursive;
+    }
+  
+  #board {
+    margin: 30px auto 30px auto;
+    height: 400px;
+    width: 400px;
+    
+  }
+  
+  #scores {
+    font-size: 150%;
+  }
+  
+  td {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3.5em;
+    border: 5px solid #333;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 300%;
+  }
+  
+  tbody {
+    border: none;
+  }
+  
+  .top > td{
+    border-top:none;
+    border-bottom: solid 5px #333;
+  }
+  .mid > td {
+    border-top: 5px #333 solid;
+    border-bottom: 5px #333 solid;
+  }
+  .bot > td {
+    border-bottom: none;
+  }
+  
+  .left {
+    border-left: none;
+  
+  }
+  .right {
+    border-right: none;
+  }
+
+  #result {
+    margin-top: 100px;
+  }
+
+  #head {
+    background: #F08080;
+    
+  }
+
+  .container {
+    background: #ffb6c1;
+    padding: 100px 100px 500px 100px;
+
+  }
+
+  #result {
+      font-size: 3.0em;
+  }
